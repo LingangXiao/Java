@@ -2,7 +2,7 @@ package Loops;
 
 public class loops {
     public static void main (String[] args){
-        // for loop ------------------------------------------
+        // for loop -------------------------------------------------------------------------
         // 输出3次helloworld.
         for (int a = 0; a < 3; a++){
             System.out.println("helloworld");
@@ -38,6 +38,33 @@ public class loops {
         }
         System.out.println();
         System.out.println(count);
+
+        //while loop---------------------------------------------------------------------------------------
+        int i = 0;
+        while (i < 3){
+            System.out.println("hello");
+            i++;
+        }
+
+        //example 珠穆朗玛峰
+        double h = 0.1;
+        int j = 0;
+        while (h <= 8848860){
+            h = h * 2;
+            j++;
+        }
+        System.out.println(j);
+        System.out.println(h);
+
+        //do-while loop
+        //好处：一定会先执行一次循环体，比如刷票软件。一开始不需要判断有没有票，直接开始抢，再看抢没抢到。
+        int k = 0;
+        do {
+            System.out.println("do-while");
+            k++;
+        }while (k < 3);
+
+
     }
 
 }
