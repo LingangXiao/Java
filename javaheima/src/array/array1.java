@@ -31,7 +31,7 @@ public class array1 {
         for (int j = 0; j < sales.length; j++){
             sum += sales[j];
         }
-        System.out.println(sum);
+        System.out.println(sum);//sum.sout 可以直接弹出来这个
 
     }
 }
