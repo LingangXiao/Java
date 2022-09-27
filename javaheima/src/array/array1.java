@@ -1,5 +1,8 @@
 package array;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class array1 {
     public static void main (String[] args){
         //如果有大量变量的定义，比如一个班级里面的所有学生名字
@@ -33,5 +36,45 @@ public class array1 {
         }
         System.out.println(sum);//sum.sout 可以直接弹出来这个
 
+        //数组求最大值
+        int[] price = {15, 99, 90, 98, 70};
+        int maxprice = price[0]; //最好用数组第一个数来设置默认值，因为如果是0，可能一个数组都是负数
+        for (int i = 0; i < price.length; i++ ) {
+            if (price[i] > maxprice) {
+                maxprice = price[i];
+            }
+        }
+        System.out.println(maxprice);
+        System.out.println("--------------------------");
+
+        //猜数字游戏
+        //随机生成5个数字，在1-20之间，让大家来猜数字
+        //如果未猜中，提示没猜中
+        //如果猜中了，提示猜中了，并且输出该数字第一次出现的位置，直到输出完全部5个数字
+        int[] RandomNumber = new int[5];  //5个1-20之间的随机数，并且存入数组
+        Random r = new Random();
+
+        for (int j = 0; j < RandomNumber.length; j++){
+            RandomNumber[j] = r.nextInt(20) + 1;
+        }
+
+        Scanner sc = new Scanner (System.in);
+        OUT: //当运行到break OUT的代码时，结束整个while循环,否则只会结束当前的for循环
+        while (true) {
+            System.out.println("plz enter a number between 1 to 20");
+            int UserInput = sc.nextInt();
+
+
+            for (int k = 0; k < RandomNumber.length; k++) {
+                    if (RandomNumber[k] == UserInput) {
+                    System.out.println("congrats, the index of the number: " + k );
+                    break OUT;
+                }
+            }
+            System.out.println("sorry, your input is not the number");
+        }
+        for (int k = 0; k < RandomNumber.length; k++) {
+            System.out.print(RandomNumber[k] + "\t");
+        }
     }
 }
