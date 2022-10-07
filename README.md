@@ -2,7 +2,7 @@ https://www.bilibili.com/video/BV1Cv411372m?p=10&vd_source=aa56881794afd64fc1652
 # this is where I learn Java
 
 
-Oct7 p88 19:11
+Oct7 p88
 
 Oct6 p85
 
