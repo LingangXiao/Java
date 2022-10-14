@@ -1,7 +1,7 @@
 https://www.bilibili.com/video/BV1Cv411372m?p=95
 # this is where I learn Java
 
-Oct13 p100
+Oct13 p101
 
 Oct8 p95
 
