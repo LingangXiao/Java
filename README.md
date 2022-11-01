@@ -1,7 +1,7 @@
 https://www.bilibili.com/video/BV1Cv411372m?p=130&spm_id_from=pageDriver&vd_source=aa56881794afd64fc1652c894710f2c5
 # this is where I learn Java
 
-Oct31 p132
+Oct31 p133
 
 Oct28 p131
 
