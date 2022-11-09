@@ -1,6 +1,8 @@
 https://www.bilibili.com/video/BV1Cv411372m?p=143&spm_id_from=pageDriver&vd_source=aa56881794afd64fc1652c894710f2c5 
 # this is where I learn Java
 
+Nov9 p148
+
 Nov3 p142
 
 Nov2 p138
