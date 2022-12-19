@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 注释 跟标签只能有一个-->
+<student>
+    <name>Sean</name>
+    <info>
+        <age>30</age>
+    </info>
+    <sql>
+        select * from user where age &lt; 18;
+    </sql>
+</student>
