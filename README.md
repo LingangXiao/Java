@@ -1,5 +1,7 @@
-[https://www.bilibili.com/video/BV1Cv411372m?p=169&vd_source=aa56881794afd64fc1652c894710f2c5](https://www.bilibili.com/video/BV1Cv411372m?p=180&vd_source=aa56881794afd64fc1652c894710f2c5)
+
+
 # this is where I learn Java
+[https://www.bilibili.com/video/BV1Cv411372m?p=169&vd_source=aa56881794afd64fc1652c894710f2c5](https://www.bilibili.com/video/BV1Cv411372m?p=180&vd_source=aa56881794afd64fc1652c894710f2c5)
 
 Dec18 p200
 
